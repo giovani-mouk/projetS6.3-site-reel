@@ -1,6 +1,6 @@
-# 🌱 Fondation Espoir Congo - Site Officiel
+# 🌱 Fondation Esperance Congo - Site Officiel
 
-> Site web officiel de la **Fondation Espoir Congo**, association humanitaire basée à Brazzaville accompagnant les enfants défavorisés depuis 2012.
+> Site web officiel de la **Fondation Esperance Congo**, association humanitaire basée à Brazzaville accompagnant les enfants défavorisés depuis 2012.
 
 ![Version](https://img.shields.io/badge/version-1.0.0-2e7d5b)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
