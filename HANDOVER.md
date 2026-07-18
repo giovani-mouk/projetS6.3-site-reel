@@ -143,7 +143,7 @@ Former au moins 2 personnes à la maintenance
 ❌ Utiliser des images trop lourdes
 ❌ Négliger l'accessibilité
 ❌ Oublier de tester sur mobile
-br
+
 🎓 Formation
 Une session de formation de 2 heures est prévue pour :
 Comprendre la structure du site
