@@ -10,7 +10,7 @@
 
 ## 📋 Présentation
 
-Site vitrine complet 6 pages développé pour la **Fondation Espoir Congo**, une ONG fictive mais réaliste, dans le cadre du **Projet 6.3 - Projet Client Réel** de la formation **Akieni Academy**.
+Site vitrine complet 6 pages développé pour la **Fondation Esperance Congo**, une ONG fictive mais réaliste, dans le cadre du **Projet 6.3 - Projet Client Réel** de la formation **Akieni Academy**.
 
 Ce projet démontre la capacité à livrer un site professionnel complet pour un client réel, en respectant un brief, une maquette, les standards d'accessibilité (WCAG AA) et de performance (Lighthouse > 90).
 
