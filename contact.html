@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez la Fondation Espoir Congo : formulaire de contact, don, bénévolat, partenariat. Nous sommes à votre écoute à Brazzaville.">
+    <title>Contact - Fondation Espoir Congo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🌱</span>
+                <span class="logo-text">Fondation<span>Esperance</span></span>
+            </a>
+            <nav class="nav" aria-label="Navigation principale">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">À propos</a></li>
+                    <li><a href="missions.html">Missions</a></li>
+                    <li><a href="projets.html">Projets</a></li>
+                    <li><a href="temoignages.html">Témoignages</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <a href="contact.html" class="btn-donate">Faire un don ❤️</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <span class="section-badge light">Contact</span>
+            <h1>Parlons <span class="text-accent">ensemble</span></h1>
+            <p>Une question, un projet, un don ? Nous sommes à votre écoute.</p>
+        </div>
+    </section>
+
+    <section class="contact-section section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- INFOS -->
+                <div class="contact-info">
+                    <h2>Nos coordonnées</h2>
+                    <p class="contact-intro">
+                        N'hésitez pas à nous contacter pour toute question ou pour 
+                        discuter de votre souhait de nous soutenir.
+                    </p>
+
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h3>Adresse</h3>
+                                <p>Avenue du Colonel Mondounga<br>Quartier Poto-Poto<br>Brazzaville, Congo</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <h3>Téléphone</h3>
+                                <p><a href="tel:+242061234567">+242 06 123 45 67</a><br>
+                                <a href="tel:+242055551234">+242 05 555 12 34</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">✉️</div>
+                            <div>
+                                <h3>Email</h3>
+                                <p><a href="mailto:contact@espoircongo.org">contact@espoircongo.org</a><br>
+                                <a href="mailto:dons@espoircongo.org">dons@espoircongo.org</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">🕐</div>
+                            <div>
+                                <h3>Horaires</h3>
+                                <p>Lundi - Vendredi : 8h - 17h<br>Samedi : 9h - 13h<br>Fermé le dimanche</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <h3>Suivez-nous</h3>
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook">📘</a>
+                            <a href="#" aria-label="Instagram">📷</a>
+                            <a href="#" aria-label="Twitter">🐦</a>
+                            <a href="#" aria-label="YouTube">▶️</a>
+                            <a href="#" aria-label="WhatsApp">💬</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FORMULAIRE -->
+                <div class="contact-form-wrapper">
+                    <h2>Envoyez-nous un message</h2>
+                    <p class="form-intro">Nous vous répondrons dans les 48 heures.</p>
+                    
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstname">Prénom *</label>
+                                <input type="text" id="firstname" name="firstname" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastname">Nom *</label>
+                                <input type="text" id="lastname" name="lastname" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Téléphone</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Objet *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Choisir un objet</option>
+                                <option value="don">Faire un don</option>
+                                <option value="benevole">Devenir bénévole</option>
+                                <option value="partenariat">Proposer un partenariat</option>
+                                <option value="parrainage">Parrainer un enfant</option>
+                                <option value="information">Demande d'information</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Votre message *</label>
+                            <textarea id="message" name="message" rows="6" required 
+                                placeholder="Décrivez votre demande..."></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">Je souhaite recevoir la newsletter de la Fondation</label>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="rgpd" name="rgpd" required>
+                            <label for="rgpd">J'accepte que mes données soient utilisées pour traiter ma demande *</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="don-section section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Faire un don</span>
+                <h2 class="section-title">Choisissez votre impact</h2>
+                <p class="section-subtitle">Chaque contribution, quelle que soit son montant, change des vies.</p>
+            </div>
+            <div class="don-grid">
+                <div class="don-card">
+                    <div class="don-amount">5 000 FCFA</div>
+                    <div class="don-impact">1 mois de scolarité</div>
+                    <p>Fournitures scolaires et frais d'inscription pour un enfant pendant un mois.</p>
+                </div>
+                <div class="don-card featured">
+                    <div class="don-amount">25 000 FCFA</div>
+                    <div class="don-impact">1 trimestre complet</div>
+                    <p>Scolarisation complète + cantine pour un enfant pendant 3 mois.</p>
+                    <span class="don-badge">Le plus populaire</span>
+                </div>
+                <div class="don-card">
+                    <div class="don-amount">100 000 FCFA</div>
+                    <div class="don-impact">1 année scolaire</div>
+                    <p>Scolarisation, fournitures, cantine et suivi médical pour une année complète.</p>
+                </div>
+            </div>
+            <div class="don-cta">
+                <p>Pour faire un don, contactez-nous directement :</p>
+                <a href="tel:+242061234567" class="btn btn-primary btn-large">📞 Appeler maintenant</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <div class="container">
+            <div class="map-placeholder">
+                <div class="map-icon">🗺️</div>
+                <h3>Fondation Espoir Congo</h3>
+                <p>Avenue du Colonel Mondounga, Poto-Poto</p>
+                <p>Brazzaville, Congo 🇨🇬</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <div class="logo">
+                        <span class="logo-icon">🌱</span>
+                        <span class="logo-text">Fondation<span>Esperance</span></span>
+                    </div>
+                    <p>Association humanitaire reconnue d'utilité publique, œuvrant pour l'éducation et le bien-être des enfants au Congo depuis 2012.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="YouTube">▶️</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="missions.html">Nos missions</a></li>
+                        <li><a href="projets.html">Nos projets</a></li>
+                        <li><a href="temoignages.html">Témoignages</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>S'impliquer</h3>
+                    <ul>
+                        <li><a href="contact.html">Faire un don</a></li>
+                        <li><a href="contact.html">Devenir bénévole</a></li>
+                        <li><a href="contact.html">Partenariat</a></li>
+                        <li><a href="contact.html">Parrainer un enfant</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <address>
+                        <p>📍 Avenue du Colonel Mondounga<br>Brazzaville, Congo</p>
+                        <p>📞 <a href="tel:+242061234567">+242 06 123 45 67</a></p>
+                        <p>✉️ <a href="mailto:contact@espoircongo.org">contact@espoircongo.org</a></p>
+                    </address>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Fondation Espoir Congo. Tous droits réservés.</p>
+                <p>Association reconnue d'utilité publique - RCCM : CG-BZV-2012-B-1234</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
