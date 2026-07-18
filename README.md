@@ -78,8 +78,8 @@ projetS6.3/
 
 ### 1. Cloner le projet
 ```bash
-git clone https://github.com/ton-username/fondation-espoir-congo.git
-cd fondation-espoir-congo
+git clone https://github.com/ton-username/projetS6.3-site-réel
+cd projetS6.3
 
 2. Ouvrir dans le navigateur
 
